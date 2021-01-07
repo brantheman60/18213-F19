@@ -1,0 +1,3 @@
+testprogs/myspin1
+WAIT
+quit

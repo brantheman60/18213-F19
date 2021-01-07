@@ -1,0 +1,382 @@
+Found benchmark throughput 8009 for cpu type Intel(R)Xeon(R)CPUE5520@2.27GHz, benchmark regular
+Throughput targets: min=4004, max=7208, benchmark=8009
+Creating initial heap...
+Coalescing...
+Malloc...
+Coalescing...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: 1000    Footer: 1000    SIZE: 4096, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: f30    Footer: f30    SIZE: 3888, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: f10    Footer: f10    SIZE: 3856, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: a1    Footer: a1    SIZE: 160, ALLOC STATUS: 1
+Address: 0x800002858    Header: e70    Footer: e70    SIZE: 3696, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: f10    Footer: f10    SIZE: 3856, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: ec0    Footer: ec0    SIZE: 3776, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 26c0    Footer: 26c0    SIZE: 9920, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: 2650    Footer: 2650    SIZE: 9808, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: 2650    Footer: 2650    SIZE: 9808, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 20    Footer: 20    SIZE: 32, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b1    Footer: b1    SIZE: 176, ALLOC STATUS: 1
+Address: 0x800000128    Header: 25a0    Footer: 25a0    SIZE: 9632, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 20    Footer: 20    SIZE: 32, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b1    Footer: b1    SIZE: 176, ALLOC STATUS: 1
+Address: 0x800000128    Header: 2690    Footer: 2690    SIZE: 9872, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b1    Footer: b1    SIZE: 176, ALLOC STATUS: 1
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b0    Footer: b0    SIZE: 176, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 120    Footer: 120    SIZE: 288, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 100    Footer: 100    SIZE: 256, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 100    Footer: 100    SIZE: 256, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 26b0    Footer: 26b0    SIZE: 9904, ALLOC STATUS: 0
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 27e0    Footer: 27e0    SIZE: 10208, ALLOC STATUS: 0
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 36a0    Footer: 36a0    SIZE: 13984, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 36c0    Footer: 36c0    SIZE: 14016, ALLOC STATUS: 0
+
+Creating initial heap...
+Coalescing...
+Malloc...
+Coalescing...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: 1000    Footer: 1000    SIZE: 4096, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: f30    Footer: f30    SIZE: 3888, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: f10    Footer: f10    SIZE: 3856, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: a1    Footer: a1    SIZE: 160, ALLOC STATUS: 1
+Address: 0x800002858    Header: e70    Footer: e70    SIZE: 3696, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: f10    Footer: f10    SIZE: 3856, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: ec0    Footer: ec0    SIZE: 3776, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 26c1    Footer: 26c1    SIZE: 9920, ALLOC STATUS: 1
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 26c0    Footer: 26c0    SIZE: 9920, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: 2650    Footer: 2650    SIZE: 9808, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: 2650    Footer: 2650    SIZE: 9808, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 20    Footer: 20    SIZE: 32, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b1    Footer: b1    SIZE: 176, ALLOC STATUS: 1
+Address: 0x800000128    Header: 25a0    Footer: 25a0    SIZE: 9632, ALLOC STATUS: 0
+Address: 0x8000026c8    Header: d1    Footer: d1    SIZE: 208, ALLOC STATUS: 1
+Address: 0x800002798    Header: 20    Footer: 20    SIZE: 32, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b1    Footer: b1    SIZE: 176, ALLOC STATUS: 1
+Address: 0x800000128    Header: 2690    Footer: 2690    SIZE: 9872, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b1    Footer: b1    SIZE: 176, ALLOC STATUS: 1
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800000078    Header: b0    Footer: b0    SIZE: 176, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 120    Footer: 120    SIZE: 288, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Malloc...
+Splitting...
+Done allocating:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 100    Footer: 100    SIZE: 256, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 2660    Footer: 2660    SIZE: 9824, ALLOC STATUS: 0
+Address: 0x8000027b8    Header: 51    Footer: 51    SIZE: 80, ALLOC STATUS: 1
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 100    Footer: 100    SIZE: 256, ALLOC STATUS: 0
+Address: 0x800000128    Header: 31    Footer: 31    SIZE: 48, ALLOC STATUS: 1
+Address: 0x800000158    Header: 26b0    Footer: 26b0    SIZE: 9904, ALLOC STATUS: 0
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 27e0    Footer: 27e0    SIZE: 10208, ALLOC STATUS: 0
+Address: 0x800002808    Header: 71    Footer: 71    SIZE: 112, ALLOC STATUS: 1
+Address: 0x800002878    Header: e50    Footer: e50    SIZE: 3664, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 21    Footer: 21    SIZE: 32, ALLOC STATUS: 1
+Address: 0x800000028    Header: 36a0    Footer: 36a0    SIZE: 13984, ALLOC STATUS: 0
+
+Freeing...
+Coalescing...
+Done freeing:
+Address: 0x800000008    Header: 36c0    Footer: 36c0    SIZE: 14016, ALLOC STATUS: 0
+
+
+
+correctness check finished, by running tracefile "traces/syn-mix-short.rep".
+ => correct.
+
+Average utilization = 0.0%.
+Average throughput (Kops/sec) = 0.
+Perf index = 0.0 (util) + 0.0 (thru) = 0.0/100

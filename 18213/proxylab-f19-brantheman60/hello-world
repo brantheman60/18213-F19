@@ -1,0 +1,4 @@
+#!/bin/bash
+curl -v --proxy http://localhost:8724 http://localhost:8725/home.html
+curl -v --proxy http://localhost:8724 http://localhost:8725/home.html
+curl -v --proxy http://localhost:8724 http://localhost:8725/home.html

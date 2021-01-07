@@ -1,0 +1,16 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+buf	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5/act1.c	/^char* buf;$/;"	v	language:C++
+buf	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act1.c	/^char* buf;$/;"	v	language:C++
+clobber	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5/act1.c	/^void clobber(char*, int);$/;"	p	language:C++	file:
+clobber	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act1.c	/^void clobber(char*, int);$/;"	p	language:C++	file:
+clobber	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act2.c	/^void clobber(char*, int);$/;"	p	language:C++	file:
+clobber	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act3.c	/^void clobber(char*, int);$/;"	p	language:C++	file:
+hiStr	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act2.c	/^const char hiStr[] = "Hi\\n";$/;"	v	language:C++
+hiStr	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act3.c	/^const char hiStr[] = "Hi\\n";$/;"	v	language:C++
+main	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5/act1.c	/^int main(int argc, char** argv)$/;"	f	language:C++
+main	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act1.c	/^int main(int argc, char** argv)$/;"	f	language:C++
+main	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act2.c	/^int main(int argc, char** argv)$/;"	f	language:C++
+main	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act3.c	/^int main(int argc, char** argv)$/;"	f	language:C++
+printAndExit	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act3.c	/^void printAndExit(char* s)$/;"	f	language:C++
+printHi	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5/act1.c	/^void printHi()$/;"	f	language:C++
+printHi	/afs/andrew.cmu.edu/usr19/sophiesm/private/213_TA/F19/attacklab_recitation/rec5_recompiled/act1.c	/^void printHi()$/;"	f	language:C++

